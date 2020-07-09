@@ -1,0 +1,6 @@
+[0703/221342.120:ERROR:file_io_win.cc(161)] CreateFile C:\Users\ander\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: O sistema não pode encontrar o arquivo especificado. (0x2)
+[0703/221342.174:ERROR:process_info.cc(359)] UncheckedAllocate
+[0703/221342.250:ERROR:file_io_win.cc(161)] CreateFile C:\Users\ander\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: O sistema não pode encontrar o arquivo especificado. (0x2)
+[0703/221458.935:ERROR:file_io_win.cc(161)] CreateFile C:\Users\ander\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: O sistema não pode encontrar o arquivo especificado. (0x2)
+[0703/221458.951:ERROR:process_info.cc(359)] UncheckedAllocate
+[0703/221459.042:ERROR:file_io_win.cc(161)] CreateFile C:\Users\ander\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: O sistema não pode encontrar o arquivo especificado. (0x2)
