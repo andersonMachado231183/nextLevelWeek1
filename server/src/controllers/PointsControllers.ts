@@ -4,7 +4,7 @@ import ItemsController from './ItemsController';
 
 class PointsController {
 
-  async index(request: Request, response: Response) {
+    async index(request: Request, response: Response) {
     const { city, uf, items } = request.query;
 
     const parsedItems = String(items)
@@ -53,11 +53,11 @@ class PointsController {
         const trx = await knex.transaction();
     
         const point = {
-          image: 'image-fake',
+          image: 'https://images.unsplash.com/photo-1556767576-5ec41e3239ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
           name, 
           email,
           whatsapp,
-          latitude,
+          latitude, 
           longitude,
           city,
           
@@ -86,4 +86,4 @@ class PointsController {
         }
     }
 
-export default PointsController; 
+export default PointsController;  
